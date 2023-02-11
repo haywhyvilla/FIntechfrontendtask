@@ -115,3 +115,13 @@ body {
   background-color: #175ce1;
   color: #ffffff;
 }
+
+.member button:nth-child(even) {
+  background-color: #a75fd2;
+}
+
+.delivered-text {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
