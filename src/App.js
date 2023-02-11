@@ -1,3 +1,4 @@
+import Body from "./components/Body";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -11,6 +12,7 @@ const App = () => {
       <img className="line" src="/img/Vectorline.png" />
       <img className="star3" src="/img/Star1.png" />
       <img className="star4" src="/img/Star1.png" />
+      <Body />
     </div>
   );
 };
