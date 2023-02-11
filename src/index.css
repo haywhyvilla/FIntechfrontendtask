@@ -1,13 +1,117 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #121b27;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10.8rem;
+  height: 6.2rem;
+  margin: 4.2rem 0;
+}
+
+.logo {
+  font-family: DM Sans;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6.2rem;
+  color: #ffffff;
+}
+
+.btn {
+  padding: 1.4rem 1.6rem;
+  border-radius: 10rem;
+  color: #ffffff;
+  border: 1px solid #a75fd2;
+}
+
+.container {
+  max-width: 95rem;
+  padding: 0 3.2rem;
+  margin: 8rem auto;
+  overflow: auto;
+  text-align: center;
+}
+
+.secondary-heading {
+  max-width: 80rem;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.secondary-heading span {
+  color: #a75fd2;
+}
+
+.description {
+  max-width: 100%;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 130%;
+  color: #fcfcfc;
+}
+
+.cta-form {
+  margin: 2rem;
+}
+
+.cta {
+  background-color: inherit;
+  display: block;
+  margin: 3rem auto;
+  width: 45rem;
+  height: 5.2rem;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+.box {
+  padding: 1.4rem 1.2rem;
+  width: 44.3rem;
+  height: 5rem;
+  background: linear-gradient(
+    112.92deg,
+    #5404ff 18.35%,
+    rgba(189, 59, 210, 0.94) 71.49%
+  );
+  border-radius: 10rem;
+  border: none;
+}
+
+.members {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 2rem;
+}
+
+.member button {
+  font-size: 1.6rem;
+  font-weight: 700;
+  height: 3.4rem;
+  width: 3.4rem;
+  border-radius: 50%;
+  margin-right: -0.8rem;
+  border: none;
+  background-color: #175ce1;
+  color: #ffffff;
 }
