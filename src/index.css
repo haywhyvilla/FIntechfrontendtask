@@ -13,8 +13,9 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "DM Sans", sans-serif;
   background-color: #121b27;
+  position: relative;
 }
 
 .header {
@@ -23,7 +24,7 @@ body {
   align-items: center;
   padding: 0 10.8rem;
   height: 6.2rem;
-  margin: 4.2rem 0;
+  margin: 4.2rem 0 1rem 0;
 }
 
 .logo {
@@ -44,15 +45,32 @@ body {
 .container {
   max-width: 95rem;
   padding: 0 3.2rem;
-  margin: 8rem auto;
+  margin: 0 auto;
   overflow: auto;
   text-align: center;
+  position: relative;
+}
+
+.container .star {
+  position: absolute;
+  left: -44%;
+  top: 8rem;
+}
+
+.container .star2 {
+  position: absolute;
+  left: 30%;
+  top: 20rem;
+}
+
+.container img {
+  margin-left: 60rem;
 }
 
 .secondary-heading {
   max-width: 80rem;
   font-weight: 900;
-  font-size: 5rem;
+  font-size: 6rem;
   color: #ffffff;
   margin-bottom: 1.5rem;
 }
@@ -124,4 +142,22 @@ body {
   color: #ffffff;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+.ball {
+  position: absolute;
+  top: 15rem;
+  left: 8rem;
+}
+
+.ball2 {
+  position: absolute;
+  right: 0;
+  top: 28rem;
+}
+
+.line {
+  position: absolute;
+  right: 40rem;
+  top: 46rem;
 }

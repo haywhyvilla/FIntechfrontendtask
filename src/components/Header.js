@@ -4,8 +4,13 @@ const Header = () => {
   return (
     <header className="header">
       <div>
-        <h1 className="logo">Iyalbaze</h1>
+        <h1 className="logo">
+          I
+          <img src="/img/vector.png" />
+          yalbaze
+        </h1>
       </div>
+
       <Button color="inherit" text="Get Priority Access" />
     </header>
   );
