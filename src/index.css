@@ -93,12 +93,27 @@ body {
 
 .cta {
   background-color: inherit;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   margin: 3rem auto;
   width: 45rem;
   height: 5.2rem;
   border: 1px solid #ffffff;
   border-radius: 8px;
+}
+
+.cta svg {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 3px 8px;
+}
+
+.cta input {
+  flex: 1;
+  height: 5rem;
+  background: transparent;
+  border: none;
 }
 
 .box {
@@ -160,4 +175,15 @@ body {
   position: absolute;
   right: 40rem;
   top: 46rem;
+}
+
+.star3 {
+  position: absolute;
+  right: 10rem;
+  top: 72rem;
+}
+
+.star4 {
+  position: absolute;
+  left: 18rem;
 }
