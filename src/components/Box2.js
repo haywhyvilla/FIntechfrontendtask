@@ -1,8 +1,8 @@
-const Box = ({ color, text, setactive }) => {
+const Box2 = ({ color, text, setactive }) => {
   return (
     <button
       style={{ backgroundColor: color }}
-      className="box"
+      className="box2"
       onClick={() => setactive(true)}
     >
       {text}
@@ -10,4 +10,4 @@ const Box = ({ color, text, setactive }) => {
   );
 };
 
-export default Box;
+export default Box2;

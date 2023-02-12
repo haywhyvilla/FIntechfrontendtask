@@ -3,7 +3,7 @@ import Form from "./Form";
 import Box from "./Box";
 import Member from "./Member";
 
-const Hero = () => {
+const Hero = ({ setactive }) => {
   return (
     <div className="container">
       <img className="star" src="/img/Star2.png" />
@@ -22,7 +22,7 @@ const Hero = () => {
         business. Sign up now to get early access.
       </p>
       <Form />
-      <Box text="Get early access" />
+      <Box text="Get early access" setactive={setactive} />
       <Member />
     </div>
   );

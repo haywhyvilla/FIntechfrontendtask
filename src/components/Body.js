@@ -1,11 +1,18 @@
-import Box from "./Box";
+import Box2 from "./Box2";
 import Form from "./Form";
 
-const Body = () => {
+const Body = ({ setactive }) => {
   return (
     <div className="section-body">
       <div className="body-discription">
+        <img className="ball3" src="/img/Ellipse38.png" />
+        <img className="blue1" src="/img/Highlight1.png" />
+        <img className="blue2" src="/img/Highlight1.png" />
+        <img className="star5" src="/img/Star4.png" />
+        <img className="star6" src="/img/Star2.png" />
+        <img className="star7" src="/img/Star4.png" />
         <h1 className="secondary-heading2">Priority Access</h1>
+        <img className="line6" src="/img/line6.png" />
         <p className="description">
           Get ready to revolutionize the way you interact with your customers
           and drive sales with Loyalbaze. Skip the waitlist and get exclusive
@@ -33,11 +40,15 @@ const Body = () => {
             <input type={Text} placeholder="Select Country" required />
           </div>
 
-          <textarea type={Text} cols="58" rows="6" required>
-            Drop a message.....
-          </textarea>
+          <textarea
+            type={Text}
+            placeholder=" Drop a message....."
+            cols="58"
+            rows="6"
+            required
+          ></textarea>
 
-          <Box text="Send Request" />
+          <Box2 text="Send Request" setactive={setactive} />
         </form>
       </div>
     </div>
