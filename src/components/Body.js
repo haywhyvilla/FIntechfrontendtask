@@ -1,5 +1,4 @@
 import Box2 from "./Box2";
-import Form from "./Form";
 
 const Body = ({ setactive }) => {
   return (
