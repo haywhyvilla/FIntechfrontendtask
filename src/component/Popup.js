@@ -2,7 +2,7 @@ const Popup = ({ setactive }) => {
   return (
     <div className="section-popup" onClick={() => setactive(false)}>
       <div className="center">
-        <img className="" src="/img/Group243.png" />
+        <img alt="" className="" src="/img/Group243.png" />
         <div>
           <h1 className="secondary-heading3">Congratulations</h1>
           <p className="description2">

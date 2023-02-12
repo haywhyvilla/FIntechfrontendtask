@@ -5,14 +5,14 @@ const Body = ({ setactive }) => {
   return (
     <div className="section-body">
       <div className="body-discription">
-        <img className="ball3" src="/img/Ellipse38.png" />
-        <img className="blue1" src="/img/Highlight1.png" />
-        <img className="blue2" src="/img/Highlight1.png" />
-        <img className="star5" src="/img/Star4.png" />
-        <img className="star6" src="/img/Star2.png" />
-        <img className="star7" src="/img/Star4.png" />
+        <img alt="" className="ball3" src="/img/Ellipse38.png" />
+        <img alt="" className="blue1" src="/img/Highlight1.png" />
+        <img alt="" className="blue2" src="/img/Highlight1.png" />
+        <img alt="" className="star5" src="/img/Star4.png" />
+        <img alt="" className="star6" src="/img/Star2.png" />
+        <img alt="" className="star7" src="/img/Star4.png" />
         <h1 className="secondary-heading2">Priority Access</h1>
-        <img className="line6" src="/img/line6.png" />
+        <img alt="" className="line6" src="/img/line6.png" />
         <p className="description">
           Get ready to revolutionize the way you interact with your customers
           and drive sales with Loyalbaze. Skip the waitlist and get exclusive

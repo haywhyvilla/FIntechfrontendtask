@@ -6,10 +6,10 @@ import Member from "./Member";
 const Hero = ({ setactive }) => {
   return (
     <div className="container">
-      <img className="star" src="/img/Star2.png" />
-      <img className="star2" src="/img/Star2.png" />
+      <img alt="" className="star" src="/img/Star2.png" />
+      <img alt="" className="star2" src="/img/Star2.png" />
 
-      <img src="/img/Ellipse40.png" />
+      <img alt="" src="/img/Ellipse40.png" />
       <h3 className="secondary-heading">
         Turn your best customers into <span> Loyal fans</span>
       </h3>
