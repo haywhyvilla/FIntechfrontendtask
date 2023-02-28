@@ -208,6 +208,12 @@ body {
   left: 8rem;
 }
 
+@media (max-width: 1000px) {
+  .ball {
+    display: none;
+  }
+}
+
 .ball3 {
   position: absolute;
   top: 0rem;
@@ -232,10 +238,22 @@ body {
   top: 28rem;
 }
 
+@media (max-width: 1000px) {
+  .ball2 {
+    display: none;
+  }
+}
+
 .line {
   position: absolute;
   right: 40rem;
   top: 46rem;
+}
+
+@media (max-width: 1000px) {
+  .line {
+    display: none;
+  }
 }
 
 .star3 {
