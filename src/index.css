@@ -45,6 +45,13 @@ body {
   color: #ffffff;
 }
 
+@media (max-width: 500px) {
+  .logo {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}
+
 .btn {
   padding: 1.4rem 1.6rem;
   border-radius: 10rem;
@@ -54,6 +61,7 @@ body {
 
 @media (max-width: 500px) {
   .btn {
+    padding: auto;
     border-radius: 5rem;
   }
 }
