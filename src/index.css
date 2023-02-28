@@ -33,7 +33,7 @@ body {
 
 @media (max-width: 500px) {
   .header {
-    margin: 4.2rem 0.5rem 1rem 0.5rem;
+    margin: 4.2rem 0.1rem 0rem 0.1rem;
   }
 }
 
@@ -50,6 +50,12 @@ body {
   border-radius: 10rem;
   color: #ffffff;
   border: 1px solid #a75fd2;
+}
+
+@media (max-width: 500px) {
+  .btn {
+    border-radius: 5rem;
+  }
 }
 
 .container {
