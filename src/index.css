@@ -247,7 +247,13 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .ball3 {
+  .ball {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .ball {
     display: none;
   }
 }
@@ -258,10 +264,22 @@ body {
   right: 8rem;
 }
 
+@media (max-width: 500px) {
+  .blue1 {
+    display: none;
+  }
+}
+
 .blue2 {
   position: absolute;
   top: -2rem;
   left: 56rem;
+}
+
+@media (max-width: 500px) {
+  .blue2 {
+    display: none;
+  }
 }
 
 .ball2 {
@@ -294,15 +312,32 @@ body {
   top: 72rem;
 }
 
+@media (max-width: 500px) {
+  .star3 {
+    display: none;
+  }
+}
+
 .star4 {
   position: absolute;
   left: 18rem;
+}
+
+@media (max-width: 500px) {
+  .star4 {
+    display: none;
+  }
 }
 
 .star5 {
   position: absolute;
   left: 52rem;
   top: 52rem;
+}
+@media (max-width: 500px) {
+  .star5 {
+    display: none;
+  }
 }
 
 .star6 {
@@ -311,10 +346,22 @@ body {
   left: 40rem;
 }
 
+@media (max-width: 500px) {
+  .star6 {
+    display: none;
+  }
+}
+
 .star7 {
   position: absolute;
   bottom: -10rem;
   right: 5rem;
+}
+
+@media (max-width: 500px) {
+  .star7 {
+    display: none;
+  }
 }
 
 .section-body {
