@@ -33,7 +33,8 @@ body {
 
 @media (max-width: 500px) {
   .header {
-    margin: 4.2rem 0.1rem 0rem 0.1rem;
+    margin: 4.2rem 0.3rem 1rem 0.3rem;
+    padding: 0 1.8rem;
   }
 }
 
@@ -141,6 +142,12 @@ body {
   border-radius: 8px;
 }
 
+@media (max-width: 500px) {
+  .cta {
+    width: 35rem;
+  }
+}
+
 .cta svg {
   color: #ffffff;
   font-size: 2rem;
@@ -180,6 +187,12 @@ body {
   border: none;
   color: #ffffff;
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .box {
+    width: 35rem;
+  }
 }
 
 .box2 {
@@ -294,7 +307,7 @@ body {
   top: 28rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1224px) {
   .ball2 {
     display: none;
   }
@@ -306,7 +319,7 @@ body {
   top: 46rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1224px) {
   .line {
     display: none;
   }
@@ -316,6 +329,24 @@ body {
   position: absolute;
   right: 10rem;
   top: 72rem;
+}
+
+@media (max-width: 500px) {
+  .star {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .omooo {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .star2 {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -380,7 +411,13 @@ body {
   position: relative;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1224px) {
+  .section-body {
+    margin: 5rem 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
   .section-body {
     grid-template-columns: 1fr;
   }
