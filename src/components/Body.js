@@ -12,7 +12,7 @@ const Body = ({ setactive }) => {
         <img alt="" className="star7" src="/img/Star4.png" />
         <h1 className="secondary-heading2">Priority Access</h1>
         <img alt="" className="line6" src="/img/line6.png" />
-        <p className="description">
+        <p className="description2">
           Get ready to revolutionize the way you interact with your customers
           and drive sales with Loyalbaze. Skip the waitlist and get exclusive
           priority access to LoyalBaze. Limited slots available. Please tell us
