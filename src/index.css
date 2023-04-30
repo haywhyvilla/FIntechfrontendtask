@@ -220,6 +220,12 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 500px) {
+  .box2 {
+    width: 50%;
+  }
+}
+
 .members {
   justify-content: center;
   display: flex;
